@@ -1,0 +1,7 @@
+select *from topic; //topic테이블의 모든 정보를 가져옴
+select id, title, created, author from topic; // topic테이블에서 id, title, created등의 컬럼만
+을 가져옴
+select select id, title, created, author from topic WHERE author ='sangin';
+// topic테이블에서 author 값이 sangin인것 만 찾아 , id,title,created등을 가져옴
+select select id, title, created, author from topic WHERE author ='sangin' ORDER BY id
+DESC; // id를 큰숫자로부터 정렬하여 가져옴
